@@ -220,12 +220,12 @@ const _makeAttributesStructure = (propsAttributes, creatureProficiency, abilitie
 const _makeResourcesStructure = (propsRes) => {
   return {
     legact: {
-      value: propsRes?.numberOfLegendaryActions,
-      max: propsRes?.numberOfLegendaryActions
+      value: 0,
+      max: 0
     },
     legres: {
-      value: propsRes?.numberOfLegendaryResistances,
-      max: propsRes?.numberOfLegendaryResistances
+      value: 0,
+      max: 0
     }
   };
 };
